@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.user.UserActivity"
+    tools:showIn="@layout/activity_user"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/txvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Nama Lengkap: Muhammad Irsyad"
+            />
+        <TextView
+            android:id="@+id/txvGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            tools:text="Jenis Kelami: L"
+            />
+        <TextView
+            android:id="@+id/txvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            tools:text="Alamat: Ngagel Timur V Surabaya"
+            />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
